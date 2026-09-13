@@ -19,16 +19,24 @@ This project includes a Node API that resolves a TikTok URL and returns media me
 │   ├── test/
 │   ├── package.json
 │   ├── README.md
-│   └── Dockerfile
-├── frontend/
-│   └── tiktokdownloader/
-│       ├── lib/
-│       ├── ios/
-│       ├── android/
-│       ├── pubspec.yaml
-│       └── README.md
+│   ├── Dockerfile
+│   └── node_modules/
+├── tiktokdownloader/
+│   ├── lib/
+│   ├── ios/
+│   ├── android/
+│   ├── linux/
+│   ├── macos/
+│   ├── windows/
+│   ├── web/
+│   ├── test/
+│   ├── pubspec.yaml
+│   ├── pubspec.lock
+│   ├── analysis_options.yaml
+│   ├── README.md
+│   └── .gitignore
 ├── README.md
-└── .gitignore
+└── .git/
 ```
 
 ## Features
